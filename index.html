@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Monitor - Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f7; color: #1d1d1f; line-height: 1.6; }
+        .container { max-width: 680px; margin: 0 auto; padding: 60px 24px; }
+        .icon { width: 80px; height: 80px; background: linear-gradient(135deg, #34d399, #3b82f6); border-radius: 18px; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; }
+        .icon svg { width: 40px; height: 40px; fill: white; }
+        h1 { font-size: 34px; font-weight: 700; margin-bottom: 8px; }
+        .subtitle { font-size: 17px; color: #86868b; margin-bottom: 40px; }
+        h2 { font-size: 22px; font-weight: 600; margin: 32px 0 12px; }
+        p { font-size: 16px; color: #424245; margin-bottom: 16px; }
+        .card { background: white; border-radius: 16px; padding: 24px; margin-bottom: 16px; }
+        .card h3 { font-size: 17px; font-weight: 600; margin-bottom: 6px; }
+        .card p { margin-bottom: 0; font-size: 15px; }
+        a { color: #3b82f6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #d2d2d7; font-size: 13px; color: #86868b; }
+        .nav { margin-bottom: 40px; font-size: 15px; }
+        .nav a { margin-right: 20px; font-weight: 500; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+            <svg viewBox="0 0 24 24"><path d="M17 6H7c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 10H7V8h10v8zm2-7h1v4h-1zM8 9h6v6H8z"/></svg>
+        </div>
+
+        <h1>Battery Monitor</h1>
+        <p class="subtitle">iPad battery life estimator</p>
+
+        <div class="nav">
+            <a href="index.html">Support</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+
+        <h2>About</h2>
+        <p>Battery Monitor estimates when your iPad will need charging by measuring your actual battery drain rate. It provides a real-time clock time showing when power will run out, along with a confidence indicator that improves over time.</p>
+
+        <h2>Features</h2>
+        <div class="card">
+            <h3>Real-Time Estimate</h3>
+            <p>See the exact time your battery will run out, updated as conditions change.</p>
+        </div>
+        <div class="card">
+            <h3>Gets Smarter Over Time</h3>
+            <p>Starts with a rough estimate, then measures actual drain for increasing accuracy.</p>
+        </div>
+        <div class="card">
+            <h3>Low Battery Alerts</h3>
+            <p>Notifications at 30%, 20%, and 10% so you can plan ahead.</p>
+        </div>
+        <div class="card">
+            <h3>Widget & Live Activity</h3>
+            <p>Home Screen widget and Lock Screen Live Activity for at-a-glance monitoring.</p>
+        </div>
+        <div class="card">
+            <h3>Completely Offline</h3>
+            <p>No internet required. No data leaves your device. All data encrypted on-device.</p>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+        <div class="card">
+            <h3>Why does the percentage not match my status bar?</h3>
+            <p>iPadOS reports battery level in approximate steps. The app interpolates between steps to get closer to the real value, but small differences are normal.</p>
+        </div>
+        <div class="card">
+            <h3>How long until the estimate is accurate?</h3>
+            <p>The app shows an early estimate immediately on unplug. After 1-2 battery drops (typically 30-60 minutes), the estimate becomes reliable. After 4+ drops over an hour, it's highly accurate.</p>
+        </div>
+        <div class="card">
+            <h3>Does it drain my battery?</h3>
+            <p>The app uses minimal resources. It listens for battery level changes rather than continuously polling, so its own power impact is negligible.</p>
+        </div>
+
+        <h2>Contact Support</h2>
+        <p>For questions or issues, email <a href="mailto:steele@steeleshippy.com">steele@steeleshippy.com</a></p>
+
+        <div class="footer">
+            <p>&copy; 2026 Battery Monitor. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a></p>
+        </div>
+    </div>
+</body>
+</html>
